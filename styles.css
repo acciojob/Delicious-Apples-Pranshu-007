@@ -1,1 +1,122 @@
-/* your code here */
+body {
+  background-color: #0fe37e;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.product__photo {
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  /* top:10px; */
+  right: 15%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.photo-main {
+  background-color: rgb(182, 234, 64);
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.photo-main > img {
+  position: relative;
+  right: 30%;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls,
+i {
+  color: white;
+}
+
+.photo-album {
+  background-color: white;
+}
+
+.photo-album > ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  /* margin-top: 54px; */
+}
+
+.photo-album > ul > li {
+  border: 1px solid lightgray;
+}
+
+.product__info {
+  position: relative;
+  right: 50px;
+}
+
+.title > h1 {
+  margin-bottom: 0;
+  color: rgb(76, 76, 76);
+}
+
+.title > span {
+  color: lightslategray;
+  font-size: smaller;
+  font-weight: 100;
+}
+
+.price {
+  font-size: large;
+  color: rgb(254, 62, 63);
+  margin-top: 20px;
+}
+
+.price > span {
+  font-size: 50px;
+}
+
+.variant > h3 {
+  color: rgb(166, 166, 166);
+}
+
+.variant > ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.description > h1 {
+  color: rgb(166, 166, 166);
+  font-size: medium;
+}
+
+.description > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 40px 15px 40px;
+  margin-left: 25%;
+  background-color: rgb(254, 62, 63);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: bold;
+}
